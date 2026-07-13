@@ -68,7 +68,7 @@ def strict_creator_paraphrase(text, style_option):
     try:
         # Menggunakan model gemini-2.5-flash (Model Pro tercepat & terbaru pengganti Gemini 1.5 Pro)
         response = client.models.generate_content(
-            model='gemini-2.5-flash',
+         model='gemini-3.5-flash',
             contents=prompt,
             config=types.GenerateContentConfig(
                 system_instruction=system_instruction,
