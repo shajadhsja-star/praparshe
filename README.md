@@ -1,2 +1,0 @@
-# praparshe
-praparshe bahasa inggris
